@@ -6,7 +6,7 @@ bbr,bbr+,锐速加速工具安装
 
 cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
-
+######################################################################
 
 1.安装 curl，若是有此环境，请跳过
 
@@ -30,10 +30,10 @@ yum install xz
 
 
 
-密码修改
+3.密码修改
 
 /usr/src/trojan/server.conf
 
-重启Trojan
+4.重启Trojan
 
 systemctl restart trojan
