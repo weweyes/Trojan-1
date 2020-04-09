@@ -26,4 +26,14 @@ apt-get install xz-utils
 
 -----CentOS 安装 XZ 压缩工具-----
 
-yum install xz       
+yum install xz     
+
+========================================================================================================================================
+
+密码修改
+
+/usr/src/trojan/server.conf
+
+重启Trojan
+
+systemctl restart trojan
